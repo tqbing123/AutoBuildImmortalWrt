@@ -4,12 +4,12 @@
 # istore商店
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
 # 首页和网络向导
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 去广告adghome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
 # 代理相关
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ssr-plus"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 # VPN
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"
@@ -33,6 +33,13 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
+#文件管理器
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-filemanager"
 # 应用过滤 openappfilter.com
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"
+#cpufreq
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cpufreqr"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-cpufreq-zh-cn"
+#luci-app-docker
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-docker"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dockerman-zh-cn"
